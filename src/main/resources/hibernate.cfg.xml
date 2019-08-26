@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+    "-//Hibernate/Hibernate Configuration DTD//EN"
+    "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+  <session-factory>
+    <property name="hibernate.connection.url"/>
+    <property name="hibernate.connection.driver_class"/>
+    <property name="hibernate.connection.username"/>
+    <property name="hibernate.connection.password"/>
+    <property name="hibernate.dialect"/>
+    <property name="hibernate.hbm2ddl.auto"/>
+    <property name="hibernate.show_sql"/>
+  </session-factory>
+</hibernate-configuration>
